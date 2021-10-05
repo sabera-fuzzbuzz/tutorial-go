@@ -1,10 +1,2 @@
-base: ubuntu:16.04
-targets:
-  - name: tutorial
-    language: go
-    version: "1.11"
-    corpus: ./corpus
-    harness:
-      function: FuzzerEntrypoint
-      package: github.com/fuzzbuzz/tutorial
-      checkout: github.com/fuzzbuzz/tutorial
+base:
+  language: go
