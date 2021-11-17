@@ -8,4 +8,5 @@ func BrokenMethod(Data string) bool {
 		Data[1] == 'U' &&
 		Data[2] == 'Z' &&
 		Data[3] == 'Z'
+	
 }
